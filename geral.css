@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Poppins:ital,wght@0,300;1,200&family=Tangerine:wght@700&display=swap');
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  margin: 5vh 0 0 5vw;
+  font-size: 4rem;
+  color: #0fbaaa;
+  
+  
+}
+
+hr {
+  width: 50vw;
+  margin: 0.5vh 5vw;
+  background: #0fbaaa;
+  height: 1px;
+  border-radius: 10px;
+  border: none;
+}
+
+.ColunaTexto {
+  width: 60vw;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 3.5vw 5vw;
+}
+
+.ColunaTexto h4 {
+  font-size: 1.5rem;
+  margin: 2vh 5vw 0 5vw;
+}
+
+.FotoCircular {
+  width: 30vw;
+  margin: 5vw;
+  height: 30vw;
+  border: 9px dashed #0fbaaa;
+  border-radius: 50%;
+}
+
+@media(max-width:768px) {
+  h3 {
+    font-size: 2rem;
+  }
+
+  .ColunaTexto {
+    width: 100vw;
+  }
+
+  .FotoCircular {
+    width: 50vw;
+    height: 50vw;
+  }
+}

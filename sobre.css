@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,300;1,200&display=swap');
+
+
+.QuemSouEu {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.Historia {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  flex-direction: row-reverse;
+  background: #fff;
+  padding: 0 0 5vh 0;
+  z-index: 1;
+}
+
+.TrabalhoDiv {
+  display: flex;
+
+}
+
+.Unidades {
+  width: 100vw;
+  background: #0fbaaa;
+}
+
+.Unidades h3 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 5vw;
+  margin: 0;
+}
+
+.Unidades h2 {
+  font-size: 1.5rem;
+  margin: 5vw;
+  color: #fff;
+}
+
+.ColunaUnidade {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 45vw;
+  border-right: 2px solid #fff;
+}
+
+.ColunaUnidade p {
+  color: #fff;
+}
+
+.ColunasUnidades {
+  display: flex;
+  overflow: auto;
+}
+
+
+@media (max-width:600px) {
+  .QuemSouEu {
+    flex-direction: column;
+  }
+
+  .Historia {
+    flex-direction: column;
+  }
+
+  .TrabalhoDiv {
+    flex-direction: column;
+  }
+
+  .ColunasUnidades {
+    flex-direction: column;
+  }
+
+  .ColunaUnidade {
+    width: 100vw;
+    border: none;
+  }
+}

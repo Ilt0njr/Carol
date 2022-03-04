@@ -1,0 +1,90 @@
+.NavList ul {
+  display: flex;
+  float: right;
+}
+
+.NavList ul li {
+  list-style: none;
+  padding: 0.6vh 2vw;
+  margin: 1vh 1.5vw;
+  font-size: 1rem;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+
+.NavList ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.NavBtn {
+  display: none;
+}
+
+.NavBarsIcon {
+  z-index: 2;
+  margin: 0.5vh;
+  height: 1vh;
+  width: 10vw;
+  border-radius: 20px;
+  background: #fff;
+  transition: 0.5s transform;
+
+}
+
+@media (max-width:768px) {
+
+  .NavList {
+    width: 92vw;
+    position: absolute;
+    left:4vw;
+    top:2vw;
+    background: #fff;
+    display: flex;
+    z-index: 1;
+    border-radius: 10px;
+    display: none
+  }
+
+  .NavList ul {
+    justify-content: center;
+    flex-direction: column;
+    margin: 10vh 0vw 0 0vw;
+
+  }
+
+  .NavList ul li {
+    display: flex;
+    width: 92vw;
+    height: 6vh;
+    align-items: center;
+  }
+
+  .NavList ul li a:hover {
+    background: linear-gradient(45deg, #aa25aa, #1EB8A8);
+    border-radius: 10px;
+    color: #fff;
+
+  }
+
+  .NavList ul li a {
+    text-decoration: none;
+    font-Size: 4vw;
+    color: #0fbaaa;
+    width: 85vw;
+    padding: 2.5vh 2.5vw;
+    margin:0 0 0 8vw;
+  }
+
+  .NavBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:5vw 8vw;
+    float: right;
+    height: 10vw;
+    width: 10vw;
+  }
+
+}
