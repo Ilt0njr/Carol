@@ -3,7 +3,7 @@
 .Top {
   position:relative;
   width: 100vw;
-  height:80vh;
+  height:70vh;
 }
 
 .TopMid{
@@ -17,6 +17,8 @@
   align-items: center;
   justify-content: center;
 }
+
+
 .Teme {
   font-family: 'Amita', cursive;
   font-size: 5rem;
@@ -27,10 +29,12 @@
   font-family: 'Amita', cursive;
   font-weight: 200;
   font-size: 2.5rem;
+  margin: -2vh;
   color: #fff;
 }
 
 .CBtn {
+  margin:4vh;
   position:relative;
   font-family: 'Poppins', sans-serif;
   background: #fff;
