@@ -37,7 +37,7 @@
 
 .Unidades h2 {
   font-size: 1.5rem;
-  margin: 5vw;
+  padding:5vw;
   color: #fff;
 }
 
@@ -55,11 +55,11 @@
 
 .ColunasUnidades {
   display: flex;
+  flex-direction: row;
 }
 
-/*
 
-@media (max-width:600px) {
+@media (max-width:728px) {
   .QuemSouEu {
     flex-direction: column;
   }
