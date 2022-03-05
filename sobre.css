@@ -25,6 +25,7 @@
 
 .Unidades {
   background: #0fbaaa;
+  width:200vw;
 }
 
 .Unidades h3 {
@@ -44,7 +45,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 30vw;
+  width: 50vw;
   border-right: 2px solid #fff;
 }
 
