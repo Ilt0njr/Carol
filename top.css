@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+
 .Top {
   position:relative;
   width: 100vw;
@@ -37,12 +40,13 @@
   margin:4vh;
   position:relative;
   font-family: 'Poppins', sans-serif;
+  font-weight: bold;
   background: #fff;
-  font-size: 4vw;
-  color:#aa20aa;
+  font-size: 3.3vw;
+  color:#0fbaaa;
   border:none;
   border-radius:500px;
-  padding:1.5vh 4vw 1.5vh 16vw;
+  padding:1.8vh 5vw 1.8vh 16vw;
   display:flex;
   align-items: center;
 }
@@ -61,7 +65,7 @@ a {
 }
 
 
-.fa.fa-phone{
+.fa.fa-whatsapp{
   position:absolute;
   left:0;
   font-size:6vw;
