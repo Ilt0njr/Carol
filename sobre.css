@@ -24,7 +24,6 @@
 }
 
 .Unidades {
-  width: 100vw;
   background: #0fbaaa;
 }
 
@@ -45,7 +44,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 50vw;
+  width: 30vw;
   border-right: 2px solid #fff;
 }
 
