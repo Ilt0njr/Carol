@@ -1,6 +1,7 @@
 on_off = true
+
 function openNav() {
-  if(on_off){
+  if (on_off) {
     document.querySelector(".NavList").style.display = "block"
     Icons = document.querySelectorAll(".NavBarsIcon")
     Icons[1].style.position = "absolute"
@@ -10,7 +11,7 @@ function openNav() {
     Icons[1].style.background = "#0fbaaa"
     Icons[2].style.background = "#0fbaaa"
     on_off = false
-    
+
 
   }
   else {
