@@ -23,9 +23,9 @@
 
 .NavBarsIcon {
   z-index: 2;
-  margin: 0.5vh;
-  height: 1vh;
-  width: 10vw;
+  margin: 0.6vh;
+  height: 0.5vh;
+  width: 9.5vw;
   border-radius: 20px;
   background: #fff;
   transition: 0.5s transform;

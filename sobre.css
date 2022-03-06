@@ -20,7 +20,15 @@
 
 .TrabalhoDiv {
   display: flex;
+}
 
+.AlvoDiv{
+  display:flex;
+  align-items: center;
+}
+
+.AlvoDiv img{
+  height:45vw;
 }
 
 .Unidades {
@@ -78,5 +86,9 @@
   .ColunaUnidade {
     width: 100vw;
     border: none;
+  }
+  
+  .AlvoDiv{
+    flex-direction: column;
   }
 }
