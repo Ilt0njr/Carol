@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Poppins:ital,wght@0,300;1,200&family=Tangerine:wght@700&display=swap');
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   padding: 0;
@@ -48,9 +50,7 @@ p {
 
 @media(max-width:768px) {
   h3 {
-    font-size: 1.8O neuropsicopedagogo atua em pacientes com ou sem diagnóstico. O motivo se dá porque assim como precisamos exercitar o nosso corpo, é preciso também exercitarmos o nosso cérebro.
-Em um primeiro momento, é feita uma
- avaliação,  para saber se o desenvolvimento cognitivo está de acordo com a idade. Após esse primeiro momento, encaminha o paciente para o tratamento mais adequado, que pode envolver outros profissionais, como neurologistas, psicólogos, fonoaudiólogos, entre outros. No caso do encaminhamento incluir sessões neuropsicopedagógicas, é feito uma estimulação através de jogos e atividades na parte do cérebro que encontra-se “adormecida”.rem;
+    font-size: 1.8rem
   }
 
   .ColunaTexto {
