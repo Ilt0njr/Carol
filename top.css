@@ -2,23 +2,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 
-
-.Top {
-  position:relative;
-  width: 100vw;
-  height:70vh;
+.Top{
+  width:100vw;
+  height:146vw;
+  background-image: url("TopBg.jpg");
+  background-size:cover;
+  clip-path: circle(180vh at 50% -105vh)
 }
 
 .TopMid{
-  width:100vw;
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%, -50%);
   display:flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  position: absolute;
+  left:50vw;
+  top:73vw;
+  transform:translate(-50%, -50%);
 }
 
 
@@ -28,61 +27,52 @@
   color: #fff;
 }
 
-.Name{
+.Name {
   font-family: 'Amita', cursive;
-  font-weight: 200;
   font-size: 2.5rem;
-  margin: -2vh;
   color: #fff;
 }
 
 .CBtn {
-  margin:4vh;
-  position:relative;
+  margin: 2vh 0 0 0;
+  width:37vw;
+  height:12vw;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   background: #fff;
-  font-size: 3.3vw;
-  color:#0fbaaa;
-  border:none;
-  border-radius:500px;
-  padding:1.8vh 5vw 1.8vh 16vw;
+  font-size: 3.5vw;
+  color: #0fbaaa;
+  border: none;
   display:flex;
+  border-radius: 10vw;
   align-items: center;
 }
 
-a {
-  text-decoration: none;
-}
-
-.TopBg{
-  width:100vw;
-  height:70vh;
-  position: absolute;
-  top:0;
-  z-index:-1;
-  clip-path: circle(150vh at 50% -80vh)
-}
-
-
-.fa.fa-whatsapp{
-  position:absolute;
-  left:0;
-  font-size:6vw;
-  background: linear-gradient(45deg, #aa20aa, #0fbaaa);
-  color:#fff;
-  padding:1.5vh 1.8vh;
+.fa.fa-whatsapp {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  margin: 0 3vw 0 0;
+  height:12vw;
+  width:12vw;
+  font-size: 6vw;
+  background:linear-gradient(45deg, #aa25aa, #0fbaaa);
+  float:left;
+  color: #fff;
   border-radius: 50%;
 }
 
-@media(max-width: 768px){
-  .Teme{
+@media(max-width: 768px) {
+  .Teme {
     font-size: 2rem
   }
-  .Name{
-    font-size:1rem;
+
+  .Name {
+    font-size: 1rem;
   }
+
+  .Top {
+    height: 75vh;
+  }
+
 }
-
-
-
