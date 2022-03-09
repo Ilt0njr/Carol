@@ -4,10 +4,11 @@
 
 .Top{
   width:100vw;
-  height:146vw;
+  height:114vw;
   background-image: url("TopBg.jpg");
-  background-size:cover;
-  clip-path: circle(180vh at 50% -105vh)
+  background-size: cover;
+  background-position-y: -15vh;
+  clip-path: circle(180vh at 50% -120vh)
 }
 
 .TopMid{
@@ -16,7 +17,7 @@
   align-items: center;
   position: absolute;
   left:50vw;
-  top:73vw;
+  top:57vw;
   transform:translate(-50%, -50%);
 }
 
@@ -72,7 +73,16 @@
   }
 
   .Top {
-    height: 75vh;
+    width: 100vw;
+    height: 146vw;
+    background-position-y: 0;
+    background-image: url("TopBg.jpg");
+    background-size: cover;
+    clip-path: circle(180vh at 50% -105vh)
+  }
+  
+  .TopMid{
+    top:73vw;
   }
 
 }
