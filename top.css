@@ -4,11 +4,11 @@
 
 .Top{
   width:100vw;
-  height:56vw;
+  height:66vw;
   background-image: url("TopBg.jpg");
   background-size: cover;
   background-position-y: -50vw;
-  clip-path: circle(250vh at 50% -221vh)
+  clip-path: circle(345vw at 50% -150vh)
 }
 
 .TopMid{
@@ -17,7 +17,7 @@
   align-items: center;
   position: absolute;
   left:50vw;
-  top:25vw;
+  top:33vw;
   transform:translate(-50%, -50%);
 }
 
