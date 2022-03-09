@@ -4,10 +4,10 @@
 
 .Top{
   width:100vw;
-  height:114vw;
+  height:56vw;
   background-image: url("TopBg.jpg");
   background-size: cover;
-  background-position-y: -15vh;
+  background-position-y: -50vw;
   clip-path: circle(180vh at 50% -120vh)
 }
 
@@ -17,31 +17,30 @@
   align-items: center;
   position: absolute;
   left:50vw;
-  top:57vw;
+  top:25vw;
   transform:translate(-50%, -50%);
 }
 
 
 .Teme {
   font-family: 'Amita', cursive;
-  font-size: 5rem;
+  font-size: 4rem;
   color: #fff;
 }
 
 .Name {
   font-family: 'Amita', cursive;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #fff;
 }
 
 .CBtn {
-  margin: 2vh 0 0 0;
-  width:37vw;
-  height:12vw;
+  width:25vw;
+  height:8vw;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   background: #fff;
-  font-size: 3.5vw;
+  font-size: 2.5vw;
   color: #0fbaaa;
   border: none;
   display:flex;
@@ -53,10 +52,10 @@
   display:flex;
   align-items:center;
   justify-content: center;
-  margin: 0 3vw 0 0;
-  height:12vw;
-  width:12vw;
-  font-size: 6vw;
+  margin: 0 1.5vw 0 0;
+  height:8vw;
+  width:8vw;
+  font-size: 4vw;
   background:linear-gradient(45deg, #aa25aa, #0fbaaa);
   float:left;
   color: #fff;
@@ -79,6 +78,20 @@
     background-image: url("TopBg.jpg");
     background-size: cover;
     clip-path: circle(180vh at 50% -105vh)
+  }
+  
+  .CBtn {
+    margin: 1vh 0 0 0;
+    width: 37vw;
+    height: 12vw;
+    font-size: 3.5vw;
+  }
+  
+  .fa.fa-whatsapp {
+    margin: 0 3vw 0 0;
+    height: 12vw;
+    width: 12vw;
+    font-size: 6vw;
   }
   
   .TopMid{
