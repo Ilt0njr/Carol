@@ -76,7 +76,6 @@
     background-position-y: 0;
     background-image: url("TopBg.jpg");
     background-size: cover;
-    clip-path: circle(180vh at 50% -105vh)
   }
   
   .CBtn {
