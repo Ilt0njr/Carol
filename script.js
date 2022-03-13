@@ -10,6 +10,7 @@ function openNav() {
     Icons[1].style.top = "10vw"
     Icons[1].style.background = "#0fbaaa"
     Icons[2].style.background = "#0fbaaa"
+    document.querySelector(".Logo").style.filter = "invert(100%)"
     on_off = false
 
 
@@ -22,6 +23,7 @@ function openNav() {
     Icons[2].style.transform = "rotate(180deg)"
     Icons[1].style.background = "#fff"
     Icons[2].style.background = "#fff"
+    document.querySelector(".Logo").style.filter = "invert(0%)"
     on_off = true
 
   }

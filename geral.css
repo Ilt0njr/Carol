@@ -7,6 +7,7 @@ html {
 * {
   padding: 0;
   margin: 0;
+  text-decoration: none;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -16,9 +17,12 @@ h3 {
   color: #0fbaaa;
 }
 
-a {
-  text-decoration: none;
+
+.Logo{
+  height: 7vw;
+  margin: 1vh 4vw;
 }
+
 
 hr {
   width: 50vw;
@@ -36,14 +40,6 @@ hr {
 p {
   font-size: 1.2rem;
   margin: 3.5vw 5vw;
-}
-
-.Logo {
-  height: 7vw;
-  width: 7vw;
-  margin: 1vh 1vh;
-  position: absolute;
-  z-index: 1;
 }
 
 .ColunaTexto h4 {
@@ -102,11 +98,13 @@ footer {
     width: 50vw;
     height: 50vw;
   }
-
-  .Logo {
-    height: 15vw;
-    width: 15vw;
-    margin: 5vw 8vw;
+  
+  .Logo{
+    transition: filter 150ms linear;
+    z-index: 1;
+    position: absolute;
+    margin:5vw 8vw;
+    height:13vw;
   }
 
 }
